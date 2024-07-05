@@ -1,0 +1,20 @@
+	//users details
+	
+	#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	id PrimaryIndex	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	name	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	3	phone Index	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	4	email	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	5	staff_code Index	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	6	course	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	7	date	datetime			No	None			Change Change	Drop Drop	
+	8	pa-code Index	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+
+
+//signup form db 
+	#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	username	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	3	email	varchar(30)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	4	password	varchar(255)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	5	date	datetime			No	None			Change Change	Drop Drop	
